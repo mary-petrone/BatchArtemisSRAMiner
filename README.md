@@ -33,7 +33,7 @@ NOTE: This pipeline relies on several databases, modules and taxonomy files that
 4. Enter the scripts folder, edit setup.sh `cd BatchArtemisSRAMiner/scripts/; chmod +x ./*; nano setup.sh`
 5. Change the `root`, `project` and `email` parameters. 
 6. Run the setup script `./setup.sh`
-7. `cd ../../` and remove the install files `rm BatchArtemisSRAMiner BatchArtemisSRAMiner.zip`
+7. `cd ../../` and remove the install files `rm -r BatchArtemisSRAMiner`
 
 Installing Aspera (ascp) is also recommended:
 Under the hood Kingfisher is used to try multiple SRA download methods. One of the fastest and most reliable is ENA using aspera. In most cases, aspera will need to be installed. To do this check out the following:
